@@ -1,7 +1,10 @@
 # FileSorter
 
+File Sorter
 
-Sure, here is a simplified version of the instructions on how to start the File Sorter:
+The File Sorter is a simple program that sorts files in a directory by their file extension. The program supports the following file extensions:
+
+.txt .csv .xml .cs .doc .docx .xls .xlsx .ppt .pptx .pdf .jpg .jpeg .png .mp3 .mp4
 
 To use the File Sorter:
 
