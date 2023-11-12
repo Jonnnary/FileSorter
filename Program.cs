@@ -26,8 +26,16 @@ namespace FileSorter
             }
             else
             {
-                // Display a message if the required argument is missing
-                Console.WriteLine("You have to insert a path! ");
+                // If no command-line argument is provided, prompt the user for the directory path
+                Console.WriteLine("Enter the path you want to sort: ");
+
+                // Read user input for the directory path
+                string userin = Console.ReadLine();
+
+                // Create a Sorter instance with the user-provided directory path and initiate the sorting process
+                Sorter sorter = new Sorter();
+                sorter.BasePath = userin;
+                sorter.Start();
             }
         }
     }
