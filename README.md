@@ -2,7 +2,12 @@ File Sorter
 
 The File Sorter is a straightforward program designed to organize files within a directory based on their file extensions. The supported file extensions include:
 
-.txt .csv .xml .cs .doc .docx .xls .xlsx .ppt .pptx .pdf .jpg .jpeg .png .mp3 .mp4
+.txt, .csv, .xml, .cs, .doc, .docx, .xls, .xlsx, .ppt, .pptx,
+.pdf, .jpg, .jpeg, .png, .mp3, .mp4, .avi, .gif, .html, .css,
+.js, .json, .zip, .rar, .tar, .gz, .7z, .exe, .dll, .jar, .py,
+.cpp, .h, .java, .php, .sql, .md, .yaml, .svg, .bmp, .ico, .tif,
+.tiff, .wav, .ogg, .flac, .aac, .mov, .wmv, .flv, .mkv, .psd, 
+.ai, .eps, .pptm, .xlsm, .docm, .bat, .sh, .html, .xml, .yml
 
 To use the File Sorter:
 
